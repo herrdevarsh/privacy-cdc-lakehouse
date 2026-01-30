@@ -1,0 +1,35 @@
+﻿# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Local env / secrets
+.env
+.env.*
+secrets/
+**/*secret*
+**/*password*
+
+# Docker / runtime state
+**/data/
+**/warehouse/
+**/spark-events/
+**/metastore_db/
+**/checkpoint/
+**/state/
+**/.cache/
+
+# Compose overrides
+docker-compose.override.yml
