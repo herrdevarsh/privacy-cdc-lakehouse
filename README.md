@@ -3,7 +3,7 @@
 A local, end-to-end Change Data Capture (CDC) lakehouse built on Docker Compose (Windows + PowerShell friendly).  
 It captures inserts/updates/deletes from PostgreSQL via Debezium, streams them through Redpanda (Kafka API), lands raw events in Apache Iceberg (on MinIO), and exposes analytics through Trino and Spark.
 
-![Architecture](docs/architecture_pro.png)
+![Architecture](docs/architecture_perfect.png)
 
 ---
 
